@@ -1,0 +1,56 @@
+const styles = {
+    container: {
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        justifyContent: 'center',
+        minHeight: '100vh',
+        backgroundColor: '#f5f5f5',
+        fontFamily: 'Arial, sans-serif',
+    },
+    header: {
+        backgroundColor: '#4CAF50',
+        color: 'white',
+        padding: '10px 20px',
+        textAlign: 'center',
+        width: '100%',
+    },
+    timerButtons: {
+        display: 'flex',
+        justifyContent: 'space-around',
+        width: '100%',
+        margin: '20px 0',
+    },
+    button: {
+        backgroundColor: '#008CBA',
+        border: 'none',
+        color: 'white',
+        padding: '15px 32px',
+        textAlign: 'center',
+        textDecoration: 'none',
+        display: 'inline-block',
+        fontSize: '16px',
+        margin: '4px 2px',
+        cursor: 'pointer',
+        borderRadius: '5px',
+    },
+    workoutDisplay: {
+        backgroundColor: '#ffffff',
+        border: '1px solid #ddd',
+        borderRadius: '5px',
+        padding: '20px',
+        boxShadow: '0 2px 5px rgba(0,0,0,0.1)',
+        width: '80%',
+        maxWidth: '600px',
+    },
+    authContainer: {
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        justifyContent: 'center',
+        width: '100%',
+        padding: '20px',
+    },
+};
+
+export default styles;
